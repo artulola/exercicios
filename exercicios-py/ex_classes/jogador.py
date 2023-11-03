@@ -10,7 +10,7 @@ class Jogador:
 
     def imprimirDados(self):
         print("INFORMAÇÕES JOGADOR")
-        print(f'Nome: {self.nome}\nPosição: {self.posicao}\nAno de nascimento: {self.nascimento}\nNacionalidade: {self.nacionalidade}\nAltura: {self.altura}Peso: {self.peso}')
+        print(f'Nome: {self.nome}\nPosição: {self.posicao}\nAno de nascimento: {self.nascimento}\nNacionalidade: {self.nacionalidade}\nAltura: {self.altura} Peso: {self.peso}')
 
     def calcularIdade(self):
         idade = 2023 - self.nascimento
