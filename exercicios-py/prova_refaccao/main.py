@@ -19,3 +19,18 @@ class Hobby:
         MUSIC = 1
         SPORTS = 2
         GAMES = 3
+
+
+class Friend(Person):
+
+    def __init__(self, hobby):
+        self.hobby = Hobby(hobby)
+        
+
+    def chill(self):
+        print(f'{self.name} is chilling')
+
+    def play(self, friends):
+        pass
+
+    def __str__(self):
