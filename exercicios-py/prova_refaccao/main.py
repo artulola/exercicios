@@ -34,3 +34,4 @@ class Friend(Person):
         pass
 
     def __str__(self):
+        print(f'{self.name}({self.age}) {self.hobby}')
