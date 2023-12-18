@@ -1,6 +1,5 @@
 import re
 
-
 def validarSenha(senha):
 
     pattern = r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=!.]).{8,}$'
